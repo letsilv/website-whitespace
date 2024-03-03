@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configurações do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importação da biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Título da página -->
+    <title>Sobre | Website whitespace</title>
+</head>
+<body>
+    <!-- Início do cabeçalho (header) -->
+    <header style="background-image: url('img/background-sobre1.jpg');">
+        <!-- Container para alinhar o conteúdo -->
+        <div class="container">
+            <!-- Navegação principal -->
+            <nav>
+                <!-- Logo/link para a página inicial -->
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <!-- Lista de links de navegação -->
+                <ul class="Ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <!-- Ícone de fechar menu (inicialmente oculto) -->
+                    <div class="close-icon" onclick="classMenu">
+                        <i class="fa fa-window-close"></i>
+                    </div>
+                </ul>
+                <!-- Ícone de menu (para dispositivos móveis) -->
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <!-- Seção de banner com título "Sobre" -->
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Sobre</h1>
+                </div>
+            </section>
+        </div>
+        <!-- Fim do container -->
+    </header>
+    <!-- Fim do cabeçalho -->
+
+    <!-- Seção Sobre -->
+    <section class="sobre">
+        <div class="container">
+            <!-- Texto e informações sobre a empresa -->
+            <div class="sobre-text">
+                <h3>Estamos nesse mercado por mais de 8 anos</h3>
+                <p>
+                    A White Place é uma empresa que nasceu com a missão de oferecer o melhor para os clientes.
+                    Com um time técnico formado por profissionais capacitados e experientes.
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+            <!-- Imagem relacionada à empresa -->
+            <div class="sobre-img">
+                <img src="img/sobre.jpg" alt="Imagem sobre a empresa">
+            </div>
+        </div>
+    </section>
+    <!-- Fim da Seção Sobre -->
+
+    <!-- Rodapé (footer) -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Links para redes sociais -->
+            <div class="links">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <!-- Créditos de desenvolvimento -->
+            <p>Desenvolvido por Leticia</p>
+        </div>
+    </footer>
+    <!-- Fim do Rodapé -->
+
+    <!-- Script JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
